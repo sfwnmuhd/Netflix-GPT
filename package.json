@@ -1,0 +1,58 @@
+{
+  
+  "scripts": {
+  
+    
+  "start": "parcel index.html"
+  
+  },
+  
+  "repository": {
+  
+    
+  "type": "git",
+  
+    
+  "url": "git+https://github.com/sfwnmuhd/Netflix-GPT.git"
+  
+  },
+  
+  "keywords": [
+  
+    
+  "netflix"
+  
+  ],
+  
+  "author": "safwan",
+  
+  "license": "ISC",
+  
+  "bugs": {
+  
+    
+  "url": "https://github.com/sfwnmuhd/Netflix-GPT/issues"
+  
+  },
+  
+  "homepage": "https://github.com/sfwnmuhd/Netflix-GPT#readme",
+  
+  "description": "",
+  
+  "devDependencies": {
+  
+    
+  "parcel": "^2.14.4"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "react": "^19.1.0",
+  
+    
+  "react-dom": "^19.1.0"
+  
+  }
+}

@@ -42,7 +42,10 @@
   "devDependencies": {
   
     
-  "parcel": "^2.14.4"
+  "parcel": "^2.14.4",
+  
+    
+  "react-router-dom": "^7.5.0"
   
   },
   

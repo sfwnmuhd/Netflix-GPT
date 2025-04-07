@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Body from './components/Body';
 
 
 const AppLayout = () =>{
     return (
-        <h1 className='text-red-900 '>hello world</h1>
+        <Body />
     )
 } 
 

@@ -18,8 +18,13 @@ const Login = () => {
 
   const handleBtnClick = ()=>{
     // Validate the form data
-    const message = checkValidData(email.current.value, password.current.value, name.current.value);
+    const message = checkValidData(
+      email.current?.value, 
+      password.current?.value, 
+      isSignInForm ? null : name.current?.value);
     setErrorMessage(message);
+
+    console.log(message);
 
     // sign in /signup
   }

@@ -1,3 +1,12 @@
+# Netflix GPT
+- Header
+- Routing of App
+- Login Form
+- Sign up form
+- form validation
+- useRef hook
+
+
 
 
 # Features

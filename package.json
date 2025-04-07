@@ -4,6 +4,8 @@
   
     
   "start": "parcel index.html",
+  
+    
   "build": "parcel build index.html"
   
   },
@@ -43,6 +45,9 @@
   "devDependencies": {
   
     
+  "@reduxjs/toolkit": "^2.6.1",
+  
+    
   "parcel": "^2.14.4",
   
     
@@ -63,6 +68,9 @@
   
     
   "react-dom": "^19.1.0",
+  
+    
+  "react-redux": "^9.2.0",
   
     
   "tailwindcss": "^4.1.3"

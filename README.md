@@ -12,7 +12,7 @@
 - Created  Redux Store with userSlice
 - Implemented SignOut
 - Update Profile 
-
+- Fetch from TMDB Movies
 
 
 

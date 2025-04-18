@@ -92,7 +92,7 @@ const Login = () => {
   return (
     
 
-    <div className="relative h-screen">
+    <div className="relative min-h-screen ">
       <Header />
 
       {/* Background Image */}
@@ -105,33 +105,33 @@ const Login = () => {
       </div>
 
       {/* Login Form */}
-      <form onSubmit={(e)=> e.preventDefault()} className="bg-[rgba(0,0,0,0.7)] text-white absolute my-36 w-3/12 mx-auto right-0 left-0 flex flex-col p-8 rounded-lg">
+      <form onSubmit={(e)=> e.preventDefault()} className="bg-[rgba(0,0,0,0.7)] text-white absolute my-36 lg:w-3/12 md:w-4/12 sm:w-4/12 mx-auto right-0 left-0 flex flex-col p-8 rounded-lg space-y-6">
         <h1 className="text-3xl font-bold py-4">{isSignInForm ? "Sign In" : "Sign Up"}</h1>
         {!isSignInForm && (
           <input
           ref={name}
           type="text"
           placeholder="Full Name"
-          className="p-4 my-4 outline-none rounded w-full bg-gray-700"
+          className="pw-full px-4 py-3 bg-gray-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
         />
         )}
         <input
           ref={email}
           type="email"
           placeholder="Email or phone number"
-          className="p-4 my-4 outline-none rounded w-full bg-gray-700"
+          className="w-full px-4 py-3 bg-gray-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-600 "
         />
         <input
           ref={password}
           type="password"
           placeholder="Password"
-          className="p-4 my-4 outline-none rounded w-full bg-gray-700"
+          className="w-full px-4 py-3 bg-gray-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
         />
         <p className='text-red-600 font-bold text-lg py-2'>{errorMessage}</p>
-        <button className="w-full p-4 my-6 cursor-pointer bg-red-700 rounded hover:bg-red-800" onClick={handleBtnClick}>
+        <button className="w-full py-3 cursor-pointer bg-red-700 rounded hover:bg-red-800" onClick={handleBtnClick}>
           {isSignInForm ? "Sign In" : "Sign Up"}
         </button>
-        <p className="py-6 cursor-pointer" onClick={toggelSignInForm}>
+        <p className="py-6 cursor-pointer  hover:underline " onClick={toggelSignInForm}>
           {isSignInForm? "New to Netflix? Sign Up Now" : "Already have an account? Sign In"} 
         </p>
       </form>
